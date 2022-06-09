@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/public.css" type="text/css" />
+<link rel="stylesheet" href="css/system_set.css" type="text/css" />
+<script type="text/javascript" src="js/lib/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/public/public.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/manage.js"></script>
+</head>
+<body>
+<!--head-include--部分-->
+<div class="header">
+  <div class="top">
+    <h1 class="logo"></h1>
+    <h2 class="subtitle">社交媒体舆情监测系统</h2>
+    <div class="setting corner_t ">
+     <ul class="corner_b">
+        <li><a href="#">系统设置</a></li>
+        <li><a href="#">官微绑定</a></li>
+        <li><a href="#">内容管理</a></li>
+        <li><a href="#">退出登陆</a></li>
+      </ul>
+    </div>
+    <p class="username">xiaoxiaoyu</p>
+  </div>
+</div>
+<!--head-include--部分结束-->
+<div class="contentbox fixed"> 
+  <!--sideleft-include--部分-->
+  <div class="sideleft">
+    <ul class="nav">
+      <li><span class="manage_limit">信息管理</span><span class="filebox_gray"></span>
+        <ul style="display:none;">
+          <li><a href="#">新投诉</a></li>
+          <li><a href="#">人工筛选</a></li>
+          <li><a href="#">已互动</a></li>
+          <li><a href="#">已忽略</a></li>
+        </ul>
+      </li>
+      <li><span class="manage_limit">权限管理</span><span class="filebox_user"></span>
+        <ul style="display:none;">
+          <li><a href="#">登录审批</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!--sideleft-include--部分结束-->
+  <div class="content">
+    <h1 class="set_title"><span class="set_titleicon"></span>内容管理</h1>
+    <div class="add_detect"> <span class="bold-14">负面词库</span>
+      <input type="text" class="input_t_w corner" value="唯品会 坑爹">
+      <span class="add_btn_w corner">添加</span><span class="lightgary">请保留“唯品会”，“唯品团”等主要关键词 ，其余负面词组需用空格分开</span> </div>
+      <div class="clear"></div>
+     <table class="contentManage_tab" width="850" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <th width="62">序号</th>
+    <th width="273">负面关键词</th>
+    <th width="166">添加时间</th>
+    <th width="211">添加人</th>
+    <th width="136">互动记录</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td class="edit_box">唯品会  坑爹</td>
+    <td>2014-01-17  14:00</td>
+    <td>路飞</td>
+    <td><span class="edit"></span><span class="define"></span><span class="delete"></span></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td class="edit_box">唯品会  坑爹</td>
+    <td>2014-01-17  14:00</td>
+    <td>路飞</td>
+    <td><span class="edit"></span><span class="define"></span><span class="delete"></span></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td class="edit_box">爱丽奢  假</td>
+    <td>2014-01-17  14:00</td>
+    <td>路飞</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td class="edit_box">爱丽奢  假</td>
+    <td>2014-01-17  14:00</td>
+    <td>路飞</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td class="edit_box">唯品会  坑爹</td>
+    <td>2014-01-17  14:00</td>
+    <td>路飞</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+  </div>
+</div>
+</body>
+</html>

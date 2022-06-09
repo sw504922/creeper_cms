@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/public.css" type="text/css" />
+<link rel="stylesheet" href="css/home.css" type="text/css" />
+<script type="text/javascript" src="js/lib/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/public/public.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<!--head-include--部分-->
+<div class="header">
+  <div class="top">
+    <h1 class="logo"></h1>
+    <h2 class="subtitle">社交媒体舆情监测系统</h2>
+    <div class="setting corner_t ">
+     <ul class="corner_b">
+        <li><a href="#">系统设置</a></li>
+        <li><a href="#">官微绑定</a></li>
+        <li><a href="#">内容管理</a></li>
+        <li><a href="#">退出登陆</a></li>
+      </ul>
+    </div>
+    <p class="username">xiaoxiaoyu</p>
+  </div>
+</div>
+<!--head-include--部分结束-->
+<div class="contentbox fixed"> 
+  <!--sideleft-include--部分-->
+  <div class="sideleft">
+    <ul class="nav">
+      <li><span class="manage_limit">信息管理</span><span class="filebox"><span class="messagenumber">1</span></span>
+        <ul>
+          <li><a href="#">新投诉</a></li>
+          <li><a href="#">人工筛选</a></li>
+          <li><a href="#">已互动</a></li>
+          <li class="cur"><a href="#">已忽略</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!--sideleft-include--部分结束-->
+  <div class="content">
+    <div class="blogswitch">
+      <ul class="switch">
+        <li class="sinablog cur"><span></span><a href="http://www.baidu.com"></a></li>
+      </ul>
+      <dl class="Choosedate"><dd>今天</dd><span>|</span><dd> 昨天</dd><span>|</span><dd>一周内</dd><input class="datetime" type="text"><dd>至</dd><input class="datetime" type="text"></dl>
+      <ul class="linkswitch">
+        <li class="current"><span class="min_point"></span><a href="http://www.baidu.com">微博</a></li>
+        <span></span>
+        <li><span class="max_point">1</span><a href="http://www.baidu.com">评论</a></li>
+      </ul>
+    </div>
+    <div class="blogcomment_list">
+      <div class="ts_time_a clear"><span class="imgclock"></span>
+        <p>已忽略 <span ><a href="#">按账号</a></span><span>|</span><span class="curr" ><a href="#">按时间</a></span></p>
+      </div>
+      <div class="clear"></div>
+      <div class="new_num new_minheight"></div>
+      <!--微博列表-->
+      <div class="wb_Article fixed">
+        <div class="ts_time_b clear"><span></span>
+          <p>1月22日 18:30</p>
+        </div>
+        <div class="wb_content">
+          <div class="wb_left"><img  src="image/xx.jpg" width="50" height="50"  alt=""/></div>
+          <div class="wb_right fixed">
+            <p class="wb_text"><b>Alina：</b>虽然我不敢说唯品会的东西都有问题，但是它的货源绝对值得怀疑！！说自己100%是正品，那为什么打电话过去问别的品牌的官方客服对方说并未授权给唯品会销售；再者，真正的奢侈品怎么也不可能低至一折，那些一折的要么是假的，
+              要么就是二手三手货！！</p>
+            <div class="fb_img"></div>
+            <div class="img_big corner" style=" display:none;"> <a class="retract" href="javascript:void(0);">收起</a> <img src="image/fff.jpg" width="1315" height="649"/></div>
+            <p class="fb_time"><span class="fl">18分钟前  来自新浪微博</span><span class="fr">评论(234)</span><span class="fr">|</span><span class="fr">转发(344)</span></p>
+          </div>
+          <div class="clear"></div>
+          <div class="operate_bar corner"><span class="Revoke"></span></div>
+        </div>
+      </div>
+      <div class="wb_Article fixed">
+        <div class="ts_time_b clear"><span></span>
+          <p> 18:30</p>
+        </div>
+        <div class="wb_content">
+          <div class="wb_left"><img src="image/xx.jpg" width="50" height="50"  alt=""/></div>
+          <div class="wb_right fixed">
+            <p class="wb_text"><b>Alina：</b>虽然我不敢说唯品会的东西都有问题，但是它的货源绝对值得怀疑！！说自己100%是正品，那为什么打电话过去问别的品牌的官方客服对方说并未授权给唯品会销售；再者，真正的奢侈品怎么也不可能低至一折，那些一折的要么是假的，
+              要么就是二手三手货！！</p>
+            <p class="fb_time"><span class="fl">18分钟前</span><span class="fr">评论(234)</span><span class="fr">|</span><span class="fr">转发(344)</span> </p>
+          </div>
+          <div class="clear"></div>
+          <div class="operate_bar corner"><span class="Revoke"></span></div>
+        </div>
+      </div>
+      <div class="wb_Article fixed">
+        <div class="ts_time_b clear"><span></span>
+          <p> 18:30</p>
+        </div>
+        <div class="wb_content">
+          <div class="wb_left"><img  src="image/xx.jpg" width="50" height="50"  alt=""/></div>
+          <div class="wb_right fixed">
+            <p class="wb_text"><b>Alina：</b>虽然我不敢说唯品会的东西都有问题，但是它的货源绝对值得怀疑！！说自己100%是正品，那为什么打电话过去问别的品牌的官方客服对方说并未授权给唯品会销售；再者，真正的奢侈品怎么也不可能低至一折，那些一折的要么是假的，
+              要么就是二手三手货！！</p>
+            <p class="fb_time"><span class="fl">18分钟前</span><span class="fr">评论(234)</span><span class="fr">|</span><span class="fr">转发(344)</span> </p>
+          </div>
+          <div class="clear"></div>
+          <div class="operate_bar corner"><span class="Revoke"></span></div>
+        </div>
+      </div>
+      <div class="wb_Article fixed">
+        <div class="ts_time_b clear"><span></span>
+          <p> 18:30</p>
+        </div>
+        <div class="wb_content no_line">
+          <div class="wb_left"><img  src="image/xx.jpg" width="50" height="50"  alt=""/></div>
+          <div class="wb_right fixed">
+            <p class="wb_text"><b>Alina：</b>虽然我不敢说唯品会的东西都有问题，但是它的货源绝对值得怀疑！！说自己100%是正品，那为什么打电话过去问别的品牌的官方客服对方说并未授权给唯品会销售；再者，真正的奢侈品怎么也不可能低至一折，那些一折的要么是假的，
+              要么就是二手三手货！！</p>
+            <p class="fb_time"><span class="fl">18分钟前</span><span class="fr">评论(234)</span><span class="fr">|</span><span class="fr">转发(344)</span> </p>
+          </div>
+          <div class="clear"></div>
+          <div class="operate_bar corner"><span class="Revoke"></span></div>
+        </div>
+      </div>
+      <a class="more" href="#">查看更多
+      </a> 
+       <div style="position:relative;"><div class="return_top" ></div></div>
+      <!--微博列表#end--> 
+    </div>
+  </div>
+</div>
+</body>
+</html>

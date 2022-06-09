@@ -1,0 +1,8 @@
+http://stock.10jqka.com.cn/usstock/?JUNIORCHINA_WEIGHT=6
+http://stock.10jqka.com.cn/usstock/mgyw_list/?JUNIORCHINA_WEIGHT=8
+http://stock.10jqka.com.cn/usstock/mgxg_list/?JUNIORCHINA_WEIGHT=7
+http://stock.10jqka.com.cn/usstock/zggxw_list/?JUNIORCHINA_WEIGHT=7
+http://stock.10jqka.com.cn/usstock/mggsxw_list/?JUNIORCHINA_WEIGHT=6
+http://stock.10jqka.com.cn/usstock/mgscfx_list/?JUNIORCHINA_WEIGHT=6
+http://stock.10jqka.com.cn/usstock/mgcbsj_list/?JUNIORCHINA_WEIGHT=6
+http://stock.10jqka.com.cn/usstock/mgxt_list/?JUNIORCHINA_WEIGHT=6

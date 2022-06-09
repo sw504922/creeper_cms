@@ -1,0 +1,3 @@
+http://www.finet.hk/newscenter/finance?JUNIORCHINA_WEIGHT=7
+http://www.finet.hk/newscenter/market?JUNIORCHINA_WEIGHT=6
+http://www.finet.hk/newscenter/stockAnalysis?JUNIORCHINA_WEIGHT=6

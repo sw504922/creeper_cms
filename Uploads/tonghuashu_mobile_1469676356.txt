@@ -1,0 +1,8 @@
+http://m.10jqka.com.cn/news/?JUNIORCHINA_WEIGHT=5
+http://m.10jqka.com.cn/wapapi/list/jsonnews/headline/1/?JUNIORCHINA_WEIGHT=7
+http://m.10jqka.com.cn/wapapi/list/jsonnews/383/1/?JUNIORCHINA_WEIGHT=7
+http://m.10jqka.com.cn/wapapi/list/jsonnews/109/1/?JUNIORCHINA_WEIGHT=7
+http://m.10jqka.com.cn/stock/?JUNIORCHINA_WEIGHT=5
+http://m.10jqka.com.cn/fe/?JUNIORCHINA_WEIGHT=4
+http://m.10jqka.com.cn/hks/?JUNIORCHINA_WEIGHT=4
+http://m.10jqka.com.cn/goodsfu/?JUNIORCHINA_WEIGHT=4

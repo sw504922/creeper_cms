@@ -1,0 +1,52 @@
+<form role="form" class="form_box" method='post' name='form1' action='__SELF__'>
+  <div class="form-group">
+    <?php if($sign=='edit'){?>
+    <input type='hidden' name='hide_key' id='hide_key' value='<?php echo $key;?>'>
+    <?php }?>
+    <label for="exampleInputEmail1">Redis_key：</label>
+    <?php if($sign=='edit'){?>
+    <span class=''><?php echo $key;?></span>
+    <?php }else{?>
+    <input type="text" class="span10 form-control" id="r_key" name='r_key' placeholder="" value=''>
+    <?php }?>
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Redis_value：</label>
+    <input type="text" class="span10 form-control" id="r_value" name='r_value' placeholder="" value='<?php echo $sign=='edit'?$val:'';?>' onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')">
+  </div>
+
+   <button type="button" class="btn btn-primary" id='i_button'>提&nbsp;&nbsp;&nbsp;交</button>
+   <button type="button" class="btn btn-default" id='i_cancel'>取&nbsp;&nbsp;&nbsp;消</button>
+</form>
+<script type="text/javascript">
+$('#i_button').click(function(){
+  var key = $('#r_key').val();
+  var val = $('#r_value').val();
+  var hide_key = $('#hide_key').val();
+  var formdata = $("form").serialize();
+  if(hide_key){
+     $.post('index.php?m=&c=Redis&a=edit', formdata,
+        function(data){
+          if(data.status == 1){
+            location.href = 'index.php?m=&c=Redis&a=index';
+          }else{
+            alert(data.msg);
+          }
+      });
+  }else{
+    if(key==''){
+      alert('请填写Redis_key');
+      return false;
+    }else if(val==''){
+      alert('请填写Redis_value');
+      return false;
+    }else{
+      $('form').submit();
+    }
+  } 
+})
+$('#i_cancel').click(function(){
+  location.href='index.php?m=&c=Redis&a=index'
+})
+</script>

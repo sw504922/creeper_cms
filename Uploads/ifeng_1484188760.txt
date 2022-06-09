@@ -1,0 +1,3 @@
+http://finance.ifeng.com?JUNIORCHINA_WEIGHT=7
+http://finance.ifeng.com/gold?JUNIORCHINA_WEIGHT=6
+http://finance.ifeng.com/stock?JUNIORCHINA_WEIGHT=6

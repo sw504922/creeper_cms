@@ -1,0 +1,6 @@
+https://www.cnbc.com/finance/?JUNIORCHINA_WEIGHT=6
+https://www.cnbc.com/economy/?JUNIORCHINA_WEIGHT=6
+https://www.cnbc.com/us-economy/?JUNIORCHINA_WEIGHT=6
+https://www.cnbc.com/world-economy/?JUNIORCHINA_WEIGHT=6
+https://www.cnbc.com/federal-reserve/?JUNIORCHINA_WEIGHT=6
+https://www.cnbc.com/central-banks/?JUNIORCHINA_WEIGHT=6

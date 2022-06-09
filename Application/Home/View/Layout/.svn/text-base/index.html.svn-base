@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>爬虫管理系统</title>
+<link rel="stylesheet" href="__ROOT__/Public/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="__ROOT__/Public/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="__ROOT__/Public/css/ace.min.css" type="text/css" />
+<link rel="stylesheet" href="__ROOT__/Public/css/datepicker.css" type="text/css" />
+<link rel="stylesheet" href="__ROOT__/Public/css/bootstrap-timepicker.css" />
+<link rel="stylesheet" href="__ROOT__/Public/css/page.css" type="text/css" />
+<script type="text/javascript" src="__ROOT__/Public/js/lib/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/lib/highcharts.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/lib/exporting.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/bootstrap-timepicker.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/ajaxfileupload.js"></script>
+
+</head>
+<body>
+<div class="header">
+<div class="minheader">
+<div class="logo"><span class="icon-tasks"></span>后台管理系统</div>
+<ul class="nav" id='nav'>
+<li>Job管理<span class="icon-caret-down1"></span>
+<ul>
+<li><a href='./index.php?m=&c=Job&a=index'>Job列表</a></li>
+<li><a href='./index.php?m=&c=Job&a=add'>Job添加</a></li>
+</ul>
+</li>
+<li>分块日志<span class="icon-caret-down1"></span>
+<ul>
+<li><a href='./index.php?m=&c=Log&a=indexScheduler'>scheduler日志</a></li>
+<li><a href='./index.php?m=&c=Log&a=indexDispatcher'>dispatcher日志</a></li>
+<li><a href='./index.php?m=&c=Log&a=indexFetcher'>fetcher日志</a></li>
+<li><a href='./index.php?m=&c=Log&a=indexHandler'>handler日志</a></li>
+</ul></li>
+<li>Redis管理<span class="icon-caret-down1"></span>
+<ul>
+<li><a href='./index.php?m=&c=Redis&a=index'>Redis列表</a></li>
+<li><a href='./index.php?m=&c=Redis&a=add'>Redis添加</a></li>
+</ul>
+</li>
+<li>操作日志<span class="icon-caret-down1"></span>
+<ul>
+<li><a href='./index.php?m=&c=Operatelog&a=index'>操作日志</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+	<!-- /头部 -->
+		 <!-- 模板填充 -->
+	  	{__CONTENT__}
+	  	<!-- 模板填充 -->
+
+	<!-- /主体 -->
+
+</body>
+<script type="text/javascript" src="__ROOT__/Public/js/index.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/js/ajax.js"></script>
+<script type="text/javascript">
+$(function() {
+	$(".nav li").click(function(e){
+		e.stopPropagation();
+		var flag = $(this).find("ul").is(":hidden");
+		if(flag){
+			$(this).find("ul").show();
+			$(this).find("span").addClass("icon-caret-up1")
+			$(this).siblings().find("span").removeClass("icon-caret-up1");
+			
+		}else{
+			$(this).find("ul").hide();
+			$(this).find("span").removeClass("icon-caret-up1")
+			$(this).siblings().find("span").addClass("icon-caret-up1");;
+			}
+		$(this).siblings().find("ul").hide();
+	});
+	$(document).click(function(){
+		$(".icon-caret-down1").next().hide();	
+		$(".icon-caret-down1").removeClass("icon-caret-up1");
+	});
+	$('.date-picker').datepicker();
+	$('.input-small').timepicker({
+		minuteStep: 1,
+		showSeconds: true,
+		showMeridian: false
+	});
+})
+</script>
+</html>

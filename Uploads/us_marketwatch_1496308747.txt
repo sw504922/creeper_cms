@@ -1,0 +1,5 @@
+http://www.marketwatch.com/?JUNIORCHINA_WEIGHT=6
+http://www.marketwatch.com/economy-politics?JUNIORCHINA_WEIGHT=5
+http://www.marketwatch.com/markets/us?JUNIORCHINA_WEIGHT=5
+http://www.marketwatch.com/newsviewer?JUNIORCHINA_WEIGHT=5
+http://www.marketwatch.com/investing/stocks?JUNIORCHINA_WEIGHT=5

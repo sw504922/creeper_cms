@@ -1,0 +1,13 @@
+http://finance.people.com.cn/?JUNIORCHINA_WEIGHT=7
+http://finance.people.com.cn/GB/153179/153522/index.html?JUNIORCHINA_WEIGHT=5
+http://finance.people.com.cn/GB/153179/153476/index.html?JUNIORCHINA_WEIGHT=5
+http://finance.people.com.cn/GB/153179/153475/index.html?JUNIORCHINA_WEIGHT=5
+http://finance.people.com.cn/GB/1045/index.html?JUNIORCHINA_WEIGHT=5
+http://money.people.com.cn/stock/GB/220485/index.html?JUNIORCHINA_WEIGHT=5
+http://money.people.com.cn/stock/GB/222900/index.html?JUNIORCHINA_WEIGHT=5
+http://money.people.com.cn/?JUNIORCHINA_WEIGHT=6
+http://money.people.com.cn/GB/399292/index.html?JUNIORCHINA_WEIGHT=6
+http://money.people.com.cn/GB/67605/index.html?JUNIORCHINA_WEIGHT=5
+http://money.people.com.cn/GB/67606/index.html?JUNIORCHINA_WEIGHT=5
+http://money.people.com.cn/forex/?JUNIORCHINA_WEIGHT=5
+http://finance.people.com.cn/GB/71364/index.html?JUNIORCHINA_WEIGHT=6

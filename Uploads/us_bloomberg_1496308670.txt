@@ -1,0 +1,3 @@
+https://www.bloomberg.com/markets?JUNIORCHINA_WEIGHT=6
+https://www.bloomberg.com/markets/economics?JUNIORCHINA_WEIGHT=5
+https://www.bloomberg.com/politics?JUNIORCHINA_WEIGHT=5

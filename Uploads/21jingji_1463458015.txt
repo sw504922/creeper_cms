@@ -1,0 +1,6 @@
+http://m.21jingji.com/?JUNIORCHINA_WEIGHT=8
+http://m.21jingji.com/channel/finance/?JUNIORCHINA_WEIGHT=7                                                                                                                              
+http://m.21jingji.com/channel/politics/?JUNIORCHINA_WEIGHT=7
+http://m.21jingji.com/channel/capital/?JUNIORCHINA_WEIGHT=7
+http://m.21jingji.com/channel/business/?JUNIORCHINA_WEIGHT=6
+http://m.21jingji.com/channel/opinion/?JUNIORCHINA_WEIGHT=8

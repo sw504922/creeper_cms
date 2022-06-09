@@ -1,0 +1,1 @@
+http://admin.yyhkstock.com/api/index/newsByType?JUNIORCHINA_WEIGHT=8

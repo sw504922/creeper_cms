@@ -1,0 +1,7 @@
+http://www.finet.com.cn/hkstock/ganggugonggao?JUNIORCHINA_WEIGHT=6
+http://www.finet.com.cn/hkstock/xinguzhuizong?JUNIORCHINA_WEIGHT=6
+http://www.finet.com.cn/hkstock/yanjiubaogao?JUNIORCHINA_WEIGHT=6
+http://www.finet.com.cn/hkstock/gongsixinwen?JUNIORCHINA_WEIGHT=6
+http://www.finet.com.cn/hkstock/daxingpingji?JUNIORCHINA_WEIGHT=6
+http://www.finet.com.cn/hkstock/wolun_niuxiongzheng?JUNIORCHINA_WEIGHT=6
+http://www.finet.com.cn/hwstocks/meiguogushi/?JUNIORCHINA_WEIGHT=7

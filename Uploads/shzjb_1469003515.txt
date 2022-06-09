@@ -1,0 +1,7 @@
+http://news.cnstock.com/news/sns_yw/index.html?JUNIORCHINA_WEIGHT=5
+http://news.cnstock.com/industry?JUNIORCHINA_WEIGHT=5
+http://stock.cnstock.com/stock/smk_dsyp?JUNIORCHINA_WEIGHT=5
+http://stock.cnstock.com/stock/smk_qlgg?JUNIORCHINA_WEIGHT=5
+http://stock.cnstock.com/stock/smk_rdyj?JUNIORCHINA_WEIGHT=4
+http://ggjd.cnstock.com/company/scp_ggjd/tjd_bbdj?JUNIORCHINA_WEIGHT=5
+http://company.cnstock.com/company/scp_gsxw?JUNIORCHINA_WEIGHT=5

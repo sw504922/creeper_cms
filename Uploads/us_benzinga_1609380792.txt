@@ -1,0 +1,3 @@
+https://www.benzinga.com/news?JUNIORCHINA_WEIGHT=6
+https://www.benzinga.com/trading-ideas?JUNIORCHINA_WEIGHT=6
+https://www.benzinga.com/analyst-ratings/analyst-color?JUNIORCHINA_WEIGHT=6

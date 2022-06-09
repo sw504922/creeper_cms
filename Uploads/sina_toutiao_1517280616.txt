@@ -1,0 +1,6 @@
+http://cj.sina.com.cn/k/api/article/lists_by_column?sort_id=2?JUNIORCHINA_WEIGHT=6
+http://cj.sina.com.cn/k/api/article/lists_by_column?sort_id=3?JUNIORCHINA_WEIGHT=6
+http://cj.sina.com.cn/k/api/article/lists_by_column?sort_id=4?JUNIORCHINA_WEIGHT=6
+http://cj.sina.com.cn/k/api/article/lists_by_column?sort_id=5?JUNIORCHINA_WEIGHT=6
+http://cj.sina.com.cn/k/api/article/lists_by_column?sort_id=13?JUNIORCHINA_WEIGHT=6
+http://cj.sina.com.cn/k/api/article/lists_by_column?sort_id=14?JUNIORCHINA_WEIGHT=6

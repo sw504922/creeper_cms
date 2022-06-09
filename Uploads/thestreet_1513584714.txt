@@ -1,0 +1,11 @@
+http://www.thestreet.com/latest-news?JUNIORCHINA_WEIGHT=6
+http://www.thestreet.com/cramer-news?cm_ven_int=nav_main?JUNIORCHINA_WEIGHT=6
+http://www.thestreet.com/mad-money?cm_ven_int=nav_main?JUNIORCHINA_WEIGHT=6
+http://www.thestreet.com/futures?cm_ven_int=nav_main?JUNIORCHINA_WEIGHT=6
+http://www.thestreet.com/markets?cm_ven_int=nav_main?JUNIORCHINA_WEIGHT=6
+https://www.thestreet.com/banking?cm_ven_int=nav_mainmore?JUNIORCHINA_WEIGHT=6
+https://www.thestreet.com/financial-advisor-center?cm_ven_int=nav_mainmore?JUNIORCHINA_WEIGHT=6
+https://www.thestreet.com/options?cm_ven_int=nav_mainmore?JUNIORCHINA_WEIGHT=6
+https://www.thestreet.com/tech?cm_ven_int=nav_mainmore?JUNIORCHINA_WEIGHT=6
+https://www.thestreet.com/personal-finance/retirement?cm_ven_int=nav_mainmore&cm_ven_int=nav_mainmore?JUNIORCHINA_WEIGHT=6
+https://www.thestreet.com/fixed-income?cm_ven_int=nav_mainmore?JUNIORCHINA_WEIGHT=6  

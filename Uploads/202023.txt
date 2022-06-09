@@ -1,0 +1,147 @@
+2019-02-22 12:50:30
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.65-b01 mixed mode):
+
+"Attach Listener" #18 daemon prio=9 os_prio=0 tid=0x00007f6c18001000 nid=0x6bde waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Service Thread" #17 daemon prio=9 os_prio=0 tid=0x00007f6ca00e4800 nid=0x4f1e runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread11" #16 daemon prio=9 os_prio=0 tid=0x00007f6ca00df000 nid=0x4f1d waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread10" #15 daemon prio=9 os_prio=0 tid=0x00007f6ca00dd000 nid=0x4f1c waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread9" #14 daemon prio=9 os_prio=0 tid=0x00007f6ca00db000 nid=0x4f1b waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread8" #13 daemon prio=9 os_prio=0 tid=0x00007f6ca00d9000 nid=0x4f1a waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread7" #12 daemon prio=9 os_prio=0 tid=0x00007f6ca00d7000 nid=0x4f19 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread6" #11 daemon prio=9 os_prio=0 tid=0x00007f6ca00d5800 nid=0x4f18 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread5" #10 daemon prio=9 os_prio=0 tid=0x00007f6ca00d3800 nid=0x4f17 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread4" #9 daemon prio=9 os_prio=0 tid=0x00007f6ca00d1800 nid=0x4f16 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread3" #8 daemon prio=9 os_prio=0 tid=0x00007f6ca00cf800 nid=0x4f15 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread2" #7 daemon prio=9 os_prio=0 tid=0x00007f6ca00cd800 nid=0x4f13 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread1" #6 daemon prio=9 os_prio=0 tid=0x00007f6ca00cc000 nid=0x4f11 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #5 daemon prio=9 os_prio=0 tid=0x00007f6ca00c9000 nid=0x4f10 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" #4 daemon prio=9 os_prio=0 tid=0x00007f6ca00c7800 nid=0x4f0f runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" #3 daemon prio=8 os_prio=0 tid=0x00007f6ca008f800 nid=0x4f04 in Object.wait() [0x00007f6c8902c000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006c0046168> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	- locked <0x00000006c0046168> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+
+"Reference Handler" #2 daemon prio=10 os_prio=0 tid=0x00007f6ca008d800 nid=0x4f03 in Object.wait() [0x00007f6c8912d000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006c0149288> (a java.lang.ref.Reference$Lock)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:157)
+	- locked <0x00000006c0149288> (a java.lang.ref.Reference$Lock)
+
+"main" #1 prio=5 os_prio=0 tid=0x00007f6ca0008800 nid=0x4eed runnable [0x00007f6ca69c5000]
+   java.lang.Thread.State: RUNNABLE
+	at net.sourceforge.htmlunit.corejs.javascript.ConsString.flatten(ConsString.java:73)
+	- locked <0x00000006d4e44a60> (a net.sourceforge.htmlunit.corejs.javascript.ConsString)
+	at net.sourceforge.htmlunit.corejs.javascript.ConsString.<init>(ConsString.java:56)
+	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.doAdd(Interpreter.java:3159)
+	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1182)
+	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:798)
+	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:105)
+	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:411)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:309)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3057)
+	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.exec(InterpretedFunction.java:115)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:582)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:690)
+	- locked <0x00000006c029cb40> (a com.gargoylesoftware.htmlunit.html.HtmlPage)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:620)
+	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:513)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.execute(JavaScriptEngine.java:591)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.execute(JavaScriptEngine.java:566)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptIfPossible(HtmlPage.java:975)
+	at com.gargoylesoftware.htmlunit.html.HtmlScript.executeInlineScriptIfNeeded(HtmlScript.java:349)
+	at com.gargoylesoftware.htmlunit.html.HtmlScript.executeScriptIfNeeded(HtmlScript.java:409)
+	at com.gargoylesoftware.htmlunit.html.HtmlScript$3.execute(HtmlScript.java:268)
+	at com.gargoylesoftware.htmlunit.html.HtmlScript.onAllChildrenAddedToPage(HtmlScript.java:288)
+	at com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.endElement(HTMLParser.java:741)
+	at org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.endElement(HTMLParser.java:701)
+	at org.cyberneko.html.HTMLTagBalancer.callEndElement(HTMLTagBalancer.java:1170)
+	at org.cyberneko.html.HTMLTagBalancer.endElement(HTMLTagBalancer.java:1072)
+	at org.cyberneko.html.filters.DefaultFilter.endElement(DefaultFilter.java:206)
+	at org.cyberneko.html.filters.NamespaceBinder.endElement(NamespaceBinder.java:330)
+	at org.cyberneko.html.HTMLScanner$ContentScanner.scanEndElement(HTMLScanner.java:3126)
+	at org.cyberneko.html.HTMLScanner$ContentScanner.scan(HTMLScanner.java:2093)
+	at org.cyberneko.html.HTMLScanner.scanDocument(HTMLScanner.java:920)
+	at org.cyberneko.html.HTMLConfiguration.parse(HTMLConfiguration.java:499)
+	at org.cyberneko.html.HTMLConfiguration.parse(HTMLConfiguration.java:452)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.parse(HTMLParser.java:965)
+	at com.gargoylesoftware.htmlunit.html.HTMLParser.parse(HTMLParser.java:247)
+	at com.gargoylesoftware.htmlunit.html.HTMLParser.parseHtml(HTMLParser.java:193)
+	at com.gargoylesoftware.htmlunit.DefaultPageCreator.createHtmlPage(DefaultPageCreator.java:268)
+	at com.gargoylesoftware.htmlunit.DefaultPageCreator.createPage(DefaultPageCreator.java:156)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:468)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:342)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:407)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:392)
+	at com.vip.creeper.handler.parser.pbc.rtnews.UpdateCookie.getPbcCookies(UpdateCookie.java:73)
+	at com.vip.creeper.handler.parser.pbc.rtnews.UpdateCookie.main(UpdateCookie.java:49)
+
+"VM Thread" os_prio=0 tid=0x00007f6ca0088800 nid=0x4f01 runnable 
+
+"GC task thread#0 (ParallelGC)" os_prio=0 tid=0x00007f6ca001d800 nid=0x4ef0 runnable 
+
+"GC task thread#1 (ParallelGC)" os_prio=0 tid=0x00007f6ca001f800 nid=0x4ef1 runnable 
+
+"GC task thread#2 (ParallelGC)" os_prio=0 tid=0x00007f6ca0021000 nid=0x4ef2 runnable 
+
+"GC task thread#3 (ParallelGC)" os_prio=0 tid=0x00007f6ca0023000 nid=0x4ef3 runnable 
+
+"GC task thread#4 (ParallelGC)" os_prio=0 tid=0x00007f6ca0024800 nid=0x4ef4 runnable 
+
+"GC task thread#5 (ParallelGC)" os_prio=0 tid=0x00007f6ca0026800 nid=0x4ef5 runnable 
+
+"GC task thread#6 (ParallelGC)" os_prio=0 tid=0x00007f6ca0028000 nid=0x4ef6 runnable 
+
+"GC task thread#7 (ParallelGC)" os_prio=0 tid=0x00007f6ca002a000 nid=0x4ef7 runnable 
+
+"GC task thread#8 (ParallelGC)" os_prio=0 tid=0x00007f6ca002b800 nid=0x4ef8 runnable 
+
+"GC task thread#9 (ParallelGC)" os_prio=0 tid=0x00007f6ca002d800 nid=0x4ef9 runnable 
+
+"GC task thread#10 (ParallelGC)" os_prio=0 tid=0x00007f6ca002f000 nid=0x4efa runnable 
+
+"GC task thread#11 (ParallelGC)" os_prio=0 tid=0x00007f6ca0031000 nid=0x4efb runnable 
+
+"GC task thread#12 (ParallelGC)" os_prio=0 tid=0x00007f6ca0032800 nid=0x4efc runnable 
+
+"VM Periodic Task Thread" os_prio=0 tid=0x00007f6ca00e7000 nid=0x4f21 waiting on condition 
+
+JNI global references: 267
+

@@ -1,0 +1,7 @@
+html,body{margin:0px;padding:0px;font-family:'Open Sans';font-size:12px;}
+.header{height:60px;line-height:60px;background:#438eb9;color:#fff;}
+.logo{width:1000px;height:60px;margin:0 auto;line-height:60px;background:#438eb9;color:#fff;}
+.form_box{width:1000px;margin:60px auto;}
+.table_box{width:1000px;margin:30px auto;}
+.input-group{margin-top:30px;}
+.col-xs-2{width:230px;float:left;}

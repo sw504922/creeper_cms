@@ -1,0 +1,144 @@
+<div class="table_box">
+ <div class="cur_box">
+  <span class='cur' id='c_total'>汇总</span><span id='c_detail'>详情</span>
+ </div>
+  <input type='hidden' name='id' id='id' value='<?php echo $id?>'>
+  <div class="table-responsive table_box" id='total'>
+    <form role="form" action='__SELF__'>
+    <div class="col-xs-2">
+	      <label>开始时间：</label>
+	      <div class="input-append date" style="width:160px;float:left;">
+	      <input name="start_time" type="text" data-date-format="yyyy-mm-dd" value="" id="id-date-picker-1" class="form-control date-picker">
+	      <span class="add-on"> <i class="icon-calendar"></i> </span>
+	      </div>
+	      <div class="input-append bootstrap-timepicker" style="width:70px;float:left;">
+	      <input type="text" class="input-small" id="timepicker1">
+	      <span class="add-on"><i class="icon-time"></i></span>
+	      </div>
+	    </div>
+	    <div class="col-xs-2">
+	      <label>结束时间：</label>
+	       <div class="input-append date" style="width:160px;float:left;">
+	      <input name="end_time" type="text" data-date-format="yyyy-mm-dd" value="" id="id-date-picker-2" class="form-control date-picker">
+	      <span class="add-on"> <i class="icon-calendar"></i> </span>
+	      </div>
+	      <div class="input-append bootstrap-timepicker" style="width:70px;float:left;">
+	      <input type="text" class="input-small" id="timepicker2">
+	      <span class="add-on"><i class="icon-time"></i></span>
+	      </div>
+	    </div>
+	    <div  class="btn btn-primary" id="sub_click" style="margin-top:25px;">确&nbsp;定</div>
+     </form>
+     <div id='table'>
+      <include file="Job/detail" />
+</div>
+  </div>
+  <div id='detail'  class="form_box_1" style='display:none;'>
+  <div class="form-group">
+    <label>job名称：</label><span><?php echo $re['job_name'];?></span>
+  </div>
+  <div class="form-group">
+    <label>job描述：</label><span><?php echo $re['job_comment'];?></span>
+  </div>
+  <div class="form-group">
+    <label>上传文件：</label><span><?php echo $re['urls_file_path'];?></span>
+  </div>
+  <div class="form-group">
+  <label >优先级：</label><span><?php echo $re['suggest_priority'];?></span>
+</div>
+ <div class="form-group">
+  <label >状态：</label><span><?php echo $status[$re['status']];?></span>
+</div>
+<div class="form-group">
+    <label>fetcher_id：</label><span><?php echo $re['fetcher_id'];?></span>
+</div>
+<div class="form-group">
+  <label>代理：</label><span><?php echo $re['need_proxy']==0?'不使用':'使用';?></span>
+  </div>
+<div class="form-group">
+  <label>cookies：</label><span><?php echo $re['cookies'];?></<span>
+</div> <div class="form-group">
+  <label>重复抓取：</label><span><?php echo $re['crawl_repeat']==1?'使用':'不使用';?></span>
+</div>
+<div class="form-group" id='show_time' style='display:<?php echo $re['crawl_repeat']==1?'':'none';?>;'>
+    <label>间隔时间(分钟)：</label><span><?php echo $re['repeat_interval'];?></span>
+</div>
+  <div class="form-group">
+    <label>handler配置文件名称：</label><span><?php echo $re['handler_conf'];?></span>
+  </div>
+  <div class="form-group">
+    <label>fetcher_route：</label><span><?php echo $re['fetcher_route'];?></span>
+  </div>
+  <div class="form-group">
+    <label>重抓次数：</label><span><?php echo $re['error_retry'];?></span>
+  </div>
+  <div class="form-group">
+    <label>超时时间：</label><span><?php echo $re['timeout'];?></span>
+  </div>
+  <div class="form-group">
+    <label>last_crawl_at：</label><span><?php echo $re['last_crawl_at'];?></span>
+  </div>
+  <div class="form-group">
+    <label>handler_id：</label><span><?php echo $re['handler_id'];?></span>
+  </div>
+  <div class="form-group">
+    <label>queue_name：</label><span><?php echo $re['queue_name'];?></span>
+  </div>
+  <div class="form-group">
+    <label>valid_time(分钟)：</label><span><?php echo $re['valid_time'];?></span>
+  </div>
+</div>
+   <a style="" href='javascript:history.go(-1)'>返回上一页</a>
+   </div>
+   
+   <script type="text/javascript">
+   $('#c_total').live('click',function(){
+    $('#total').css('display','');
+    $('#detail').css('display','none');
+    $('#c_total').attr('class','cur');
+    $('#c_detail').attr('class','');
+   })
+   $('#c_detail').live('click',function(){
+    $('#total').css('display','none');
+    $('#detail').css('display','');
+    $('#c_total').attr('class','');
+    $('#c_detail').attr('class','cur');
+   })
+   $('#sub_click').live('click',function(){
+    var id = $('#id').val();
+    var time_s = $('#id-date-picker-1').val();
+    var time_s1 = $('#timepicker1').val();
+    var time_e = $('#id-date-picker-2').val();
+    var time_e1 = $('#timepicker2').val();
+    var address = $("form").attr("action");
+     if(time_e < time_s){
+      $(".alert").remove();
+      var html='<div class="alert alert-warning alert-dismissible" role="alert">'+
+          '<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>'+
+          '<strong>Warning!</strong>结束日期小于开始日期 </div>';
+      $(".table").before(html);   
+      return false
+    }else{
+      $(".alert").remove();
+      
+    }
+      if(time_e == time_s && time_s1 > time_e1){
+        $(".alert").remove();
+      var html='<div class="alert alert-warning alert-dismissible" role="alert">'+
+          '<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>'+
+          '<strong>Warning!</strong>结束时间小于开始时间 </div>';
+      $(".table").before(html); 
+      return false
+      }else{
+       $(".alert").remove();
+      }
+    var info = '&id='+id+'&start='+time_s+ time_s1+'&end='+time_e+time_e1;
+    $.get('index.php?m=&c=Job&a=ajaxList',info, function(data){
+        if(data.status == 1){
+          $('#table').html(data.content);
+        }else{
+          alert(data.msg);
+        }
+     })
+   })
+   </script>

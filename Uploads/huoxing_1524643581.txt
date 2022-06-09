@@ -1,0 +1,7 @@
+http://www.huoxing24.com/info/news/shownews?currentPage=&pageSize=10&channelId=0
+http://www.huoxing24.com/info/news/shownews?currentPage=&pageSize=10&channelId=2
+http://www.huoxing24.com/info/news/shownews?currentPage=&pageSize=10&channelId=6
+http://www.huoxing24.com/info/news/shownews?currentPage=&pageSize=10&channelId=3
+http://www.huoxing24.com/info/news/shownews?currentPage=&pageSize=10&channelId=4
+http://www.huoxing24.com/info/news/shownews?currentPage=&pageSize=10&channelId=7
+http://www.huoxing24.com/info/news/shownews?currentPage=&pageSize=10&channelId=8

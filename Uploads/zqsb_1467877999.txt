@@ -1,0 +1,4 @@
+http://stock.stcn.com?JUNIORCHINA_WEIGHT=9
+http://company.stcn.com?JUNIORCHINA_WEIGHT=8
+http://data.stcn.com?JUNIORCHINA_WEIGHT=8
+http://finance.stcn.com?JUNIORCHINA_WEIGHT=8

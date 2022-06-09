@@ -1,0 +1,2 @@
+http://xueqiu.com/stock/cata/stocklist.json?size=90&order=asc&orderby=code&type=30&_=&page=
+http://xueqiu.com/stock/cata/stocklist.json?size=90&order=asc&orderby=code&type=11%2C12&_=&page=

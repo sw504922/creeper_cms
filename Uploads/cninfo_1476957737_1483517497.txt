@@ -1,0 +1,3 @@
+http://www.cninfo.com.cn/new/index/getAnnouces?type=sh
+http://www.cninfo.com.cn/new/index/getAnnouces?type=sz
+http://www.cninfo.com.cn/new/disclosure?column=regulator_latest&pageNum=1&pageSize=20

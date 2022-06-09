@@ -1,0 +1,4 @@
+http://finance.cnr.cn/gundong/?JUNIORCHINA_WEIGHT=7
+http://finance.cnr.cn/?JUNIORCHINA_WEIGHT=8
+http://finance.cnr.cn/finance/?JUNIORCHINA_WEIGHT=8
+http://finance.cnr.cn/2014jingji/djbd/?JUNIORCHINA_WEIGHT=8

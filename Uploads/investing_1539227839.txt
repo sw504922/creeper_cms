@@ -1,0 +1,13 @@
+https://cn.investing.com/indices/us-30-news?JUNIORCHINA_WEIGHT=8
+https://cn.investing.com/indices/us-spx-500-news?JUNIORCHINA_WEIGHT=8
+https://cn.investing.com/indices/nq-100-news?JUNIORCHINA_WEIGHT=8
+https://cn.investing.com/indices/nasdaq-composite-news?JUNIORCHINA_WEIGHT=8
+https://cn.investing.com/indices/nyse-composite-opinion?JUNIORCHINA_WEIGHT=8
+https://cn.investing.com/indices/dj-transportation-average-news?JUNIORCHINA_WEIGHT=8
+https://cn.investing.com/indices/volatility-s-p-500-news?JUNIORCHINA_WEIGHT=8
+https://cn.investing.com/indices/smallcap-2000-news?JUNIORCHINA_WEIGHT=8
+https://cn.investing.com/news/economic-indicators?JUNIORCHINA_WEIGHT=7
+https://cn.investing.com/news/economy-news?JUNIORCHINA_WEIGHT=8
+https://cn.investing.com/news/forex-news?JUNIORCHINA_WEIGHT=7
+https://cn.investing.com/indices/hang-sen-40-news?JUNIORCHINA_WEIGHT=7
+https://cn.investing.com/indices/hang-seng-china-enterprises-news?JUNIORCHINA_WEIGHT=8

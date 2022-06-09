@@ -1,0 +1,28 @@
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th width="10%">id</th>
+        <th width="30%">名称</th>
+        <th width="10%">controller</th>
+        <th width="10%">action</th>
+        <th width="10%">操作者</th>
+        <th width="20%">操作时间</th>
+        <th width="10%">操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php foreach($re as $val){?>
+      <tr>
+        <td><?php echo $val['id'];?></td>
+        <td><?php echo $val['name'];?></td>   
+        <td><?php echo $val['controller'];?></td>
+        <td><?php echo $val['action'];?></td>
+        <td><?php echo $val['username'];?></td>
+        <td><?php echo $val['create_time'];?></td>
+        <td>
+       <button type="button" class="btn btn-primary btn-xs" onclick='c_edit(<?php echo $val['id']?>)'>详情</button></td>
+      </tr>
+      <?php }?>
+    </tbody>
+  </table>
+ <?php echo $show;?>

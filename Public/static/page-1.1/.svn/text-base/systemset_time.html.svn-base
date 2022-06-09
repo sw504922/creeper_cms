@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/public.css" type="text/css" />
+<link rel="stylesheet" href="css/system_set.css" type="text/css" />
+<script type="text/javascript" src="js/lib/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/public/public.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/system_set.js"></script>
+</head>
+<body>
+<!--head-include--部分-->
+<div class="header">
+  <div class="top">
+    <h1 class="logo"></h1>
+    <h2 class="subtitle">社交媒体舆情监测系统</h2>
+    <div class="setting corner_t ">
+     <ul class="corner_b">
+        <li><a href="#">系统设置</a></li>
+        <li><a href="#">官微绑定</a></li>
+        <li><a href="#">内容管理</a></li>
+        <li><a href="#">退出登陆</a></li>
+      </ul>
+    </div>
+    <p class="username">xiaoxiaoyu</p>
+  </div>
+</div>
+<!--head-include--部分结束-->
+<div class="contentbox fixed"> 
+  <!--sideleft-include--部分-->
+  <div class="sideleft">
+    <ul class="nav">
+      <li><span class="manage_limit">信息管理</span><span class="filebox_gray"></span>
+        <ul style="display:none;">
+          <li><a href="#">新投诉</a></li>
+          <li><a href="#">人工筛选</a></li>
+          <li><a href="#">已互动</a></li>
+          <li><a href="#">已忽略</a></li>
+        </ul>
+      </li>
+      <li><span class="manage_limit">权限管理</span><span class="filebox_user"></span>
+        <ul style="display:none;">
+          <li><a href="#">登录审批</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!--sideleft-include--部分结束-->
+  <div class="content">
+    <h1 class="set_title"><span class="set_titleicon"></span>系统设置</h1>
+    <div class="push_time corner">
+      <h2 class="push_time_title">信息推送时间</h2>
+      <div class="push_select">
+        <input type="checkbox" class="eck">
+        <span>周一至周五</span><span>推送时间</span> <span class="input_select corner">
+        <input type="text" class="input_t hour" value="09">
+        </span> <span class="input_select corner">
+        <input type="text" class="input_t minute" value="00">
+        </span> <span>至</span> <span class="input_select corner">
+        <input type="text" class="input_t hour" value="23">
+        </span> <span class="input_select corner">
+        <input type="text" class="input_t minute" value="00">
+        </span>
+        <input type="checkbox" class="eck marl">
+        <span>周六、周日</span><span>推送时间</span> <span class="input_select corner">
+        <input type="text" class="input_t hour" value="08">
+        </span> <span class="input_select corner">
+        <input type="text" class="input_t minute" value="00">
+        </span> <span>至</span> <span class="input_select corner">
+        <input type="text" class="input_t hour" value="08">
+        </span> <span class="input_select corner">
+        <input type="text" class="input_t minute" value="30">
+        </span> </div>
+    </div>
+    <div class="Average_titlebox"><h2 class="Average_title">平均分流</h2><span class="open_WholeBypass">全部开启</span><span class="close_WholeBypass">全部关闭<div class="successtip">适用于非工作日、节假日等情况</div></span></div>
+    <table class="Bypass_tab" width="560" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <th width="181" >客服姓名</th>
+        <th width="181">分流状态</th>
+        <th width="196">分流设置</th>
+      </tr>
+      <tr>
+        <input type="hidden" class="push_status" value="0">
+        <td>夏目</td>
+        <td class="Bypass">未分流</td>
+        <td><span class="close_Bypass"></span></td>
+      </tr>
+      <tr>
+       <input type="hidden" class="push_status" value="1">
+        <td>夏目</td>
+        <td class="Bypass">未分流</td>
+        <td><span class="close_Bypass"></span></td>
+      </tr>
+      <tr>
+      <input type="hidden" class="push_status" value="0">
+        <td>夏目</td>
+        <td class="Bypass">未分流</td>
+        <td><span class="close_Bypass"></span></td>
+      </tr>
+      <tr>
+      <input type="hidden" class="push_status" value="0">
+        <td>夏目</td>
+        <td class="Bypass">未分流</td>
+        <td><span class="close_Bypass"></span></td>
+      </tr>
+      <tr>
+      <input type="hidden" class="push_status" value="0">
+        <td>夏目</td>
+        <td class="Bypass">正在分流</td>
+        <td><span class="open_Bypass"></span></td>
+      </tr>
+    </table>
+    <input type="submit" class="save_btn corner" value="保存">
+    <span class="savetip">操作成功</span>
+  </div>
+</div>
+</body>
+</html>

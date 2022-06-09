@@ -1,0 +1,57 @@
+html,body{margin:0px;padding:0px;font-family:'Open Sans';font-size:12px;}
+.header{height:60px;line-height:60px;background:#438eb9;color:#fff;}
+.minheader{width:1000px;height:60px;margin:0 auto;line-height:60px;background:#438eb9;color:#fff;}
+.logo{float:left;font-weight:bold;font-size:18px;}
+.form_box{width:1000px;margin:60px auto;}
+.form_box_1{width:1000px;margin:30px auto;}
+.table_box{width:1000px;margin:30px auto;}
+.input-group{margin-top:30px;}
+.form-group{margin-bottom:10px;}
+.col-xs-2{width:260px;float:left;margin-right:4px}
+.col-xs-3{width:122px;float:left;}
+button{margin-right:4px}
+.form-control{width:100px;}
+.input-small{width:60px;}
+.btn{margin-right:2px;line-height:18px;}
+.btn_1{width:90px;}
+.widget-box{position:absolute;}
+.open_d{position:relative;}
+.open_d >.widget-box{display:none;top:16px;background:#000;z-index:2}
+.open_d span{cursor:pointer;color:#2283c5;}
+.row_bg{padding:20px;}
+.row_bg label,.row_bg select{font-size:12px;}
+.nav{margin-left:100px;float:right;margin-top:33px;border-right:1px solid #fff;line-height:30px;height:30px;}
+.nav li{float:left;border:1px solid #fff;position:relative;border-bottom:none;border-right:none;line-height:30px;padding:0px 10px 0px 20px;background:#62a8d1;color:#fff;cursor:pointer;}
+.nav li ul{display:none;width:120px;position:absolute;top:30px;left:-26px;z-index:3;}
+.nav li ul li{float:none;}
+.page{float:right;border:#d9d9d9 1px solid;border-right:none}
+.page a,.page span{float:left;width:30px;height:30px;border-right:#d9d9d9 1px solid;line-height:30px;text-align:center;background:#fafafa}
+.page .current{background:#6faed9;color:#fff;}
+.nav li .icon-caret-down1{margin-left:4px;cursor:pointer;display:inline-block;height:14px;line-height:14px;margin-top:1px;width:14px;vertical-align:baseline;background:url(../image/arrow_1.png) no-repeat 0px 1px;}
+.nav li .icon-caret-up1{background:url(../image/arrow_2.png) no-repeat 0px 1px;}
+
+.nav li a{color:#fff;}
+.form_box_1 .form-group{margin-bottom:20px;clear:both}
+.form_box_1 label{width:170px;display:inline-block;text-align:left;text-indent:20px;color:#2283c5}
+.form_box_1 span{font-size:14px;text-indent:20px;width:600px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;color:#666}
+.icon-tasks{width:30px;}
+.form-actions{margin-bottom:0px;}
+.title{color:#2283c5;font-size:14px;margin-bottom:20px;}
+.pagination ul{box-shadow:0px 0px 0px rgba(0, 0, 0, 0.05);}
+.pagination ul span{display:inline-block;line-height:28px;text-align:center;float:left;width:30px;height:30px;padding:0 10px;font-weight:bold;}
+.pagination ul span.prev,.pagination ul span.next{height:28px;background:#f9f9f9;border:1px solid #e0e8eb;font-weight:100;padding:0px;}
+.pagination ul span.prev{border-right:0px}
+.cur_box{border-bottom:1px solid #2283c5}
+.cur_box span{width:80px;height:30px;display:inline-block;color:#666;margin-right:10px;line-height:30px;text-align:center;font-size:14px;cursor:pointer;font-weight:bold;background:#f7f7f7;border:1px solid #e2e2e2;border-bottom:0px}
+.cur_box .cur{color:#fff;background:#2283c5;border:1px solid #0f67a3;border-bottom:0px}
+
+
+.input_m{border:none;border:1px solid #CCC;vertical-align:middle; }
+.input {height:24px; line-height:24px; border-right:none; width:200px;margin-bottom:0px;}
+.liulan {width:100px;height:30px;border:0px;cursor:pointer;}
+.files{	position:absolute; left:202px; top:52px; heigth:26px;cursor:pointer;
+		 filter: Alpha(opacity=0);    
+ 			 -moz-opacity:0;    
+ 			 opacity:0;  
+} 
+

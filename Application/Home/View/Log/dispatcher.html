@@ -1,0 +1,111 @@
+
+<div class="table-responsive table_box">
+<div class="title">dispatecher模块的日志展示</div>
+  <div style="margin-bottom:10px;">
+  	<form>
+		
+		<div class="dropdown" style="float:left;">
+      <label>Job名称：</label>
+      <input type="text" class="form-control"  placeholder="" id='i_name' name='i_name' value=''>
+		</div>
+		<div class="dropdown" style="float:left;">
+  		<label >type：</label>
+      <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+        <span id='s_status'>全部</span>
+        <input type='hidden' id='i_status' value='-100' name='i_status'>
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" id='show_status'>
+        <li role="presentation" value='-100'><a role="menuitem" tabindex="-1" href="javascript:void(0)">全部</a></li>
+        <li role="presentation" value='-10'><a role="menuitem" tabindex="-1" href="javascript:void(0)">因为超时而丢弃</a></li>
+        <li role="presentation" value='-5'><a role="menuitem" tabindex="-1" href="javascript:void(0)">重新放入schedule</a></li>
+        <li role="presentation" value='-4'><a role="menuitem" tabindex="-1" href="javascript:void(0)">从pq中取数量</a></li>
+        <li role="presentation" value='-3'><a role="menuitem" tabindex="-1" href="javascript:void(0)">重新放进mq</a></li>
+        <li role="presentation" value='-2'><a role="menuitem" tabindex="-1" href="javascript:void(0)">fetcher拒绝</a></li>
+        <li role="presentation" value='-1'><a role="menuitem" tabindex="-1" href="javascript:void(0)">fetcher成功接收</a></li>
+        <li role="presentation" value='1'><a role="menuitem" tabindex="-1" href="javascript:void(0)">DEBUG</a></li>
+        <li role="presentation" value='2'><a role="menuitem" tabindex="-1" href="javascript:void(0)">WARN</a></li>
+        <li role="presentation" value='3'><a role="menuitem" tabindex="-1" href="javascript:void(0)">INFO</a></li>
+        <li role="presentation" value='4'><a role="menuitem" tabindex="-1" href="javascript:void(0)">ERROR</a></li>
+      </ul>
+		</div>
+		
+	    <div class="col-xs-2">
+	      <label>开始时间：</label>
+	      <div class="input-append date" style="width:160px;float:left;">
+	      <input name="start_time" type="text" data-date-format="yyyy-mm-dd" value="" id="id-date-picker-1" class="form-control date-picker">
+	      <span class="add-on"> <i class="icon-calendar"></i> </span>
+	      </div>
+	      <div class="input-append bootstrap-timepicker" style="width:70px;float:left;">
+	      <input type="text" class="input-small" id="timepicker1">
+	      <span class="add-on"><i class="icon-time"></i></span>
+	      </div>
+	    </div>
+	    <div class="col-xs-2">
+	      <label>结束时间：</label>
+	       <div class="input-append date" style="width:160px;float:left;">
+	      <input name="end_time" type="text" data-date-format="yyyy-mm-dd" value="" id="id-date-picker-2" class="form-control date-picker">
+	      <span class="add-on"> <i class="icon-calendar"></i> </span>
+	      </div>
+	      <div class="input-append bootstrap-timepicker" style="width:70px;float:left;">
+	      <input type="text" class="input-small" id="timepicker2">
+	      <span class="add-on"><i class="icon-time"></i></span>
+	      </div>
+	    </div>
+	   <div  class="btn btn-primary" id="btn_submit" style="margin-top:25px;">确&nbsp;定</div>
+     </form>
+ </div>
+  <div id="table_dispatcher">
+  <include file="Log/dispatcher_detail" />
+</div>
+</div>
+</body>
+<script type="text/javascript">
+$('#show_status li').live('click',function(){
+  var str = $(this).attr('value');
+  var val = $(this).text();
+  $('#s_status').text(val);
+  $('#i_status').val(str);
+})
+function detail(job_id,type){
+  location.href = 'index.php?m=&c=Log&a=indexDispatcherList&job_id='+job_id+'&type='+type
+}
+$('#btn_submit').live('click',function(){
+    var time_s = $('#id-date-picker-1').val();
+    var time_s1 = $('#timepicker1').val();
+    var time_e = $('#id-date-picker-2').val();
+    var time_e1 = $('#timepicker2').val();
+    var status = $('#i_status').val();
+    var name = $('#i_name').val();
+    if(time_e < time_s){
+      $(".alert").remove();
+      var html='<div class="alert alert-warning alert-dismissible" role="alert">'+
+          '<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>'+
+          '<strong>Warning!</strong>结束日期小于开始日期 </div>';
+      $(".table").before(html);   
+      return false
+    }else{
+      $(".alert").remove();
+      
+    }
+      if(time_e == time_s && time_s1 > time_e1){
+        $(".alert").remove();
+      var html='<div class="alert alert-warning alert-dismissible" role="alert">'+
+          '<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>'+
+          '<strong>Warning!</strong>结束时间小于开始时间 </div>';
+      $(".table").before(html); 
+      return false;
+      }else{
+       $(".alert").remove();
+      }
+    var info = '&i_status='+status+'&i_name='+name+'&start='+time_s+time_s1+'&end='+time_e+time_e1;
+    $.get('./index.php?m=&c=Log&a=getDataDispatcher',info, function(data){
+      //console.log(data.curve);
+        if(data.status == 1){
+          $('#table_dispatcher').html(data.content);
+        }else{
+          alert(data.msg);
+        }
+     })
+   })
+</script>

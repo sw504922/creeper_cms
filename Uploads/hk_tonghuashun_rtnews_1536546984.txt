@@ -1,0 +1,9 @@
+http://stock.10jqka.com.cn/hks/hknews_list/?JUNIORCHINA_WEIGHT=5
+http://stock.10jqka.com.cn/hks/ggxg_list/?JUNIORCHINA_WEIGHT=5
+http://stock.10jqka.com.cn/hks/ggfx_list/?JUNIORCHINA_WEIGHT=5
+http://stock.10jqka.com.cn/hks/ahdt_list/?JUNIORCHINA_WEIGHT=5
+http://stock.10jqka.com.cn/hks/ggydg_list/?JUNIORCHINA_WEIGHT=5
+http://stock.10jqka.com.cn/hks/wlzx_list/?JUNIORCHINA_WEIGHT=5
+http://stock.10jqka.com.cn/hks/ggyj_list/?JUNIORCHINA_WEIGHT=5
+http://stock.10jqka.com.cn/hks/ggmj_list/?JUNIORCHINA_WEIGHT=5
+http://stock.10jqka.com.cn/hks/ggdt_list/?JUNIORCHINA_WEIGHT=5

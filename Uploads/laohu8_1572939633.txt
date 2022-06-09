@@ -1,0 +1,2 @@
+https://www.laohu8.com/api/v1/news/highlight/hk?_s=1516930439591&pageCount=1&type=hk?JUNIORCHINA_WEIGHT=6
+https://www.laohu8.com/api/v1/news/highlight/hk?_s=1516930439591&pageCount=1&type=us?JUNIORCHINA_WEIGHT=6

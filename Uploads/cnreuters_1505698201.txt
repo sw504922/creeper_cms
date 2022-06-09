@@ -1,0 +1,5 @@
+http://cn.reuters.com/news/archive/topic-us-stocks?view=page?JUNIORCHINA_WEIGHT=5
+http://cn.reuters.com/news/archive/topic-us-ind-equities?view=page?JUNIORCHINA_WEIGHT=5
+http://cn.reuters.com/news/archive/topic-us-finance?view=page?JUNIORCHINA_WEIGHT=5
+http://cn.reuters.com/news/archive/topic-us-economics?view=page?JUNIORCHINA_WEIGHT=5
+http://cn.reuters.com/news/archive/topic-us-ind-equities?view=page?JUNIORCHINA_WEIGHT=5

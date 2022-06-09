@@ -1,0 +1,6 @@
+http://stock.eastmoney.com/news/cmgdd.html?JUNIORCHINA_WEIGHT=8
+http://stock.eastmoney.com/news/cmgyw.html?JUNIORCHINA_WEIGHT=8
+http://stock.eastmoney.com/news/czggng.html?JUNIORCHINA_WEIGHT=7
+http://stock.eastmoney.com/news/cmggs.html?JUNIORCHINA_WEIGHT=6
+http://stock.eastmoney.com/news/cmgpl.html?JUNIORCHINA_WEIGHT=6
+http://stock.eastmoney.com/news/cmgxt.html?JUNIORCHINA_WEIGHT=6

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.bg_fafafb{background:#fafafb;}
+.login_box{width:510px;margin:260px auto 0px;}
+.error_box{width:510px;margin:260px auto 0px;}
+.login_logo{width:180px;height:112px;float:left;background:url(../image/logo_2.png) no-repeat;}
+.form_box{width:230px;height:110px;position:relative;margin-left:10px;float:left;}
+.input_t{width:190px;height:35px;display:none;line-height:35px;padding-left:40px; background:url(../image/sprite.png) -0px -152px;color:#b2b2b2}
+.input_t:hover{background:url(../image/sprite.png) -0px -187px;}
+.input_text{width:190px;height:35px; display:block;line-height:35px;padding-left:40px; background:url(../image/sprite.png) -0px -152px; color:#b2b2b2}
+.input_text:hover{background:url(../image/sprite.png) -0px -187px;}
+.input_password{width:190px;height:35px; display:block;margin-top:5px;line-height:35px;padding-left:40px; background:url(../image/sprite.png) -0px -222px; color:#b2b2b2}
+.input_password:hover{background:url(../image/sprite.png) -0px -257px;}
+.input_p{width:190px;height:35px;display:none;margin-top:5px;line-height:35px;padding-left:40px; background:url(../image/sprite.png) -0px -222px; color:#b2b2b2}
+.input_p:hover{background:url(../image/sprite.png) -0px -257px;}
+.user_submit{width:230px;height:37px;line-height:37px;overflow:hidden;}
+.user_submit .eck{vertical-align: -2px;}
+.user_submit span{width:100px;display:block;float:left;padding-left:10px;}
+.input_s{width:82px;height:32px;display:block;float:right;margin-top:5px;background:url(../image/sprite.png) -100px -60px; text-indent:-10000px;}
+.FriendTips{width:200px;height:35px;line-height:35px;text-indent:10px; color:#F24000;float:left}
+.error_box img{display:block;float:left;}
+.Refresh_btn{display:block;width:40px;height:14px;margin:4px 16px 0px 0px;float:right;background:url(../image/sprite.png) -100px -92px;}

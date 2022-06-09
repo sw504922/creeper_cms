@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/public.css" type="text/css" />
+<link rel="stylesheet" href="css/home.css" type="text/css" />
+<script type="text/javascript" src="js/lib/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/public/public.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<!--head-include--部分-->
+<div class="header">
+  <div class="top">
+    <h1 class="logo"></h1>
+    <h2 class="subtitle">社交媒体舆情监测系统</h2>
+    <div class="setting corner_t ">
+      <ul class="corner_b">
+        <li><a href="#">系统设置</a></li>
+        <li><a href="#">官微绑定</a></li>
+        <li><a href="#">内容管理</a></li>
+        <li><a href="#">退出登陆</a></li>
+      </ul>
+    </div>
+    <p class="username">xiaoxiaoyu</p>
+  </div>
+</div>
+<!--head-include--部分结束-->
+<div class="contentbox fixed"> 
+  <!--sideleft-include--部分-->
+  <div class="sideleft">
+    <ul class="nav">
+      <li><span class="manage_limit">信息管理</span><span class="filebox"><span class="messagenumber">1</span></span>
+        <ul>
+          <li class="cur"><a href="#">新投诉</a></li>
+          <li><a href="#">人工筛选</a></li>
+          <li><a href="#">已互动</a></li>
+          <li><a href="#">已忽略</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!--sideleft-include--部分结束-->
+  <div class="content">
+    <div class="blogswitch">
+      <ul class="switch">
+        <li class="sinablog cur"><span></span><a href="http://www.baidu.com"></a></li>
+      </ul>
+      <ul class="linkswitch">
+        <li ><span class="max_point">1</span><a href="http://www.baidu.com">微博</a></li>
+        <span></span>
+        <li class="current"><span class="min_point"></span><a href="http://www.baidu.com">评论</a></li>
+      </ul>
+    </div>
+    <div class="blogcomment_list">
+      <div class="ts_time_a clear">
+        <p><span class="curr"><a href="#">按账号</a></span><span>|</span><span ><a href="#">按时间</a></span></p>
+      </div>
+      <!--评论列表按账号-->
+      <div class="account_Article">
+        <div class="account_Theme">
+          <div class="account_Themeleft"><img  src="image/xx.jpg" width="50" height="50"  alt=""/><span class="Theme_title"><a href="#">只看该账号</a></span></div>
+          <div class="account_Themeright fixed">
+            <p class="account_Themetext"><b>唯品会：</b>看男神来VIP。听我是歌手，来唯品会和张亮一起做买手！内啥，唯们转发小唯这一条有机会得小唯神秘礼物（共一份）表忘了@三个小伙伴! </p>
+            <div class="account_Themecontent corner"><span class="arrow_top"></span>
+              <p>@模特张亮: 我的最新广告片新鲜出炉了!没错，我刚刚担任了[唯品会品牌形象大使]。整个TVC的拍摄完成还算顺利，我可没有忘词奥！大家觉得怎么样?1月3号晚8点，我在vip.com@唯品会等你</p>
+              <img src="image/img_3.jpg" width="119" height="89"  alt=""/>
+              <p class="Theme_Source_1"><span class="fl">20分钟前来自iphone 4s</span><span class="fr" >评论</span><span class="fr">|</span><span class="fr">收藏</span><span class="fr">|</span><span class="fr">转发</span></p>
+            </div>
+            <p class="Theme_Source_2"><span class="fl">20分钟前猫扑</span><span class="fr">评论(200)</span><span class="fr">|</span><span class="fr">收藏</span><span class="fr">|</span><span class="fr">转发(20)</span></p>
+           
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="account_contentwrap">
+         <div class="Dashedline">投诉共5条</div>
+        <div class="account_content">
+          <div class="account_left"><img  src="image/xx.jpg" width="50" height="50"  alt=""/><a href="#"></a></div>
+          <div class="account_right">
+            <p class="account_text"><b>Alina：</b>虽然我不敢说唯品会的东西都有问题，但是它的货源绝对值得怀疑！！说自己100%是正品，那为什么打电话过去问别的品牌的官方客服对方说并未授权给唯品会销售；再者，真正的奢侈品怎么也不可能低至一折，那些一折的要么是假的，
+              要么就是二手三手货！！<span>(18分钟前)</span></p>
+          </div>
+          <div class="clear"></div>
+          <div class="operate_bar account_bar corner"><span class="omit"></span><span class="no_success ajax-get" remove-id='sina_weibo_{$data['id']}' href={:U('SinaWeibo/changeStatus?method=reopen&id='.$data['id'])}>
+            <div class="no_successtips">用户无回复、只回复单句、有明显抵触等情况</div>
+            </span><span class="line"></span><span class="success">
+            <div class="successtips">与用户达成了解决问题的共识</div>
+            </span></div>
+        </div>
+        <div class="account_content">
+          <div class="account_left"><img src="image/xx.jpg" width="50" height="50"  alt=""/><a href="#"></a></div>
+          <div class="account_right">
+            <p class="account_text"><b>Alina：</b>虽然我不敢说唯品会的东西都有问题，但是它的货源绝对值得怀疑！！说自己100%是正品，那为什么打电话过去问别的品牌的官方客服对方说并未授权给唯品会销售；再者，真正的奢侈品怎么也不可能低至一折，那些一折的要么是假的，
+              要么就是二手三手货！！<span>(18分钟前)</span></p>
+          </div>
+          <div class="clear"></div>
+          <div class="operate_bar account_bar corner"><span class="omit"></span><span class="no_success ajax-get" remove-id='sina_weibo_{$data['id']}' href={:U('SinaWeibo/changeStatus?method=reopen&id='.$data['id'])}>
+            <div class="no_successtips">用户无回复、只回复单句、有明显抵触等情况</div>
+            </span><span class="line"></span><span class="success">
+            <div class="successtips">与用户达成了解决问题的共识</div>
+            </span></div>
+        </div>
+         <div class="Dashedlinearrow"></div>
+        </div>
+       
+      </div>
+      <a class="more" href="#">查看更多
+      </a> 
+      <div class="returnbox">
+       <div class="return_top" title="返回顶部">返回顶部</div><a class="return_Whole" title="返回全部">返回全部</a>
+      </div>
+      <!--微博列表#end--> 
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="css/datepicker.css" type="text/css" />
+<link rel="stylesheet" href="css/bootstrap-timepicker.css" />
+<link rel="stylesheet" href="css/page.css" type="text/css" />
+</head>
+<body>
+<div class="header">
+  <div class="logo">日志后台管理</div>
+</div>
+<div class="table-responsive table_box">
+  <div style="margin-bottom:10px;">
+  <form>
+    <div class="col-xs-2">
+      <label>job名称：</label>
+      <input name="name1" type="text" class="form-control"  placeholder="" value="">
+    </div>
+    <div class="col-xs-2">
+      <label>开始时间：</label>
+      <input name="name2"   type="text" data-date-format="yyyy-mm-dd" id="id-date-picker-1" value="" class="form-control date-picker">
+      <span class="add-on"> <i class="icon-calendar"></i> </span>
+    </div>
+    <div class="col-xs-2">
+      <label>结束时间：</label>
+      <input name="name3"  type="text" data-date-format="yyyy-mm-dd" id="id-date-picker-1" value="" class="form-control date-picker">
+      <span class="add-on"> <i class="icon-calendar"></i> </span>
+    </div>
+     <button type="submit" class="btn btn-primary btn-submit" style="margin-top:24px;">搜&nbsp;索</button>
+     </form>
+ </div>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>id</th>
+        <th>job名称</th>
+        <th>代理</th>
+        <th>重复抓取</th>
+        <th>优先级</th>
+        <th>状态</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+      <tr >
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="dataTables_paginate paging_bootstrap pagination">
+   <ul>
+  <li class="prev disabled"><a href="#"><i class="icon-double-angle-left"></i></a></li>
+  <li class="active"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li class="next"><a href="#"><i class="icon-double-angle-right"></i></a></li>
+  </ul>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="js/lib/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+<script type="text/javascript">
+			$(function() {
+				$('.date-picker').datepicker();
+				$('.btn-submit').click(function(){
+					alert($('form').serialize())
+					
+				})
+				
+				})
+</script>
+</html>
